@@ -1,0 +1,57 @@
+body{
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    background-color: rgb(192, 242, 242);
+}
+
+.ul1{
+    padding:0;
+    list-style-type:none;
+    width:100%;
+    
+}
+
+.noBookView{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+.oops{
+    font-size:1.3rem;
+    font-weight:600;
+    color:red;
+    margin-bottom:0.4rem;
+
+}
+
+.noFound{
+    color: red;
+    font-weight:600;
+
+    font-size:1rem;
+}
+
+
+
+.badge-container{
+    margin-bottom:1rem;
+    box-sizing:border-box;
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   align-items:flex-start;
+}
+
+.libHead{
+    font-size:1.5rem;
+    font-weight: 600;
+    color:palevioletred;
+    font-style: italic;
+
+}
